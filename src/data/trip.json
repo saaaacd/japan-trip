@@ -12,7 +12,10 @@
         "type": "transport",
         "location": "關西國際機場",
         "status": "not_started",
-        "note": "入境後前往大阪市區。"
+        "note": "入境後前往大阪市區。",
+        "order": 1,
+        "lat": 34.434722,
+        "lng": 135.244167
       },
       {
         "id": "0615-checkin-osaka",
@@ -23,7 +26,10 @@
         "address": "旭１丁目４−２６ R Residence 難波南 I, 大阪市南部, 大阪, 日本, 557-0032",
         "status": "reserved",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
-        "note": "6/15、6/16 兩晚住宿。入住時間 16:00，距離地下鐵花園町站約 130 公尺。"
+        "note": "6/15、6/16 兩晚住宿。入住時間 16:00，距離地下鐵花園町站約 130 公尺。座標需確認，位置以 Google Maps 搜尋 R Residences 難波南 I 為準。",
+        "order": 2,
+        "lat": 34.6432,
+        "lng": 135.4975
       },
       {
         "id": "0615-dotonbori",
@@ -33,7 +39,10 @@
         "location": "道頓堀",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka",
-        "note": "拍固力果、吃章魚燒與大阪燒。"
+        "note": "拍固力果、吃章魚燒與大阪燒。",
+        "order": 3,
+        "lat": 34.668723,
+        "lng": 135.501297
       }
     ]
   },
@@ -50,7 +59,10 @@
         "type": "attraction",
         "location": "大阪城",
         "status": "not_started",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Osaka+Castle"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Osaka+Castle",
+        "order": 1,
+        "lat": 34.687315,
+        "lng": 135.526201
       },
       {
         "id": "0616-kuromon",
@@ -59,7 +71,10 @@
         "type": "food",
         "location": "黑門市場",
         "status": "not_started",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kuromon+Market+Osaka"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kuromon+Market+Osaka",
+        "order": 2,
+        "lat": 34.665375,
+        "lng": 135.506332
       },
       {
         "id": "0616-tsutenkaku",
@@ -68,7 +83,10 @@
         "type": "attraction",
         "location": "通天閣",
         "status": "not_started",
-        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tsutenkaku+Osaka"
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tsutenkaku+Osaka",
+        "order": 3,
+        "lat": 34.652499,
+        "lng": 135.506305
       },
       {
         "id": "0616-back-hotel",
@@ -78,7 +96,10 @@
         "location": "R Residences 難波南 I",
         "status": "reserved",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
-        "note": "第二晚住宿。"
+        "note": "第二晚住宿。",
+        "order": 4,
+        "lat": 34.6432,
+        "lng": 135.4975
       }
     ]
   },
@@ -97,7 +118,10 @@
         "address": "旭１丁目４−２６ R Residence 難波南 I, 大阪市南部, 大阪, 日本, 557-0032",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
-        "note": "大阪住宿退房。退房時間為 10:00 前，之後前往京都。"
+        "note": "大阪住宿退房。退房時間為 10:00 前，之後前往京都。",
+        "order": 1,
+        "lat": 34.6432,
+        "lng": 135.4975
       },
       {
         "id": "0617-osaka-to-kyoto",
@@ -107,7 +131,10 @@
         "location": "京都站",
         "status": "need_check",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station",
-        "note": "從大阪前往京都，抵達後可先寄放行李，再開始京都行程。"
+        "note": "從大阪前往京都，抵達後可先寄放行李，再開始京都行程。",
+        "order": 2,
+        "lat": 34.985849,
+        "lng": 135.758767
       },
       {
         "id": "0617-checkin-keihan",
@@ -118,7 +145,10 @@
         "address": "55 Higashikujyo-Muromachi, Minami-ku, Kyoto",
         "status": "reserved",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Kyoto+Ekiminami",
-        "note": "6/17 晚上住宿，入住時間 15:00 後。飯店距離京都站約 300 公尺，步行約 5 分鐘。"
+        "note": "6/17 晚上住宿，入住時間 15:00 後。飯店距離京都站約 300 公尺，步行約 5 分鐘。座標需確認，位置以 Google Maps 搜尋 Hotel Keihan Kyoto Ekiminami 為準。",
+        "order": 3,
+        "lat": 34.9829,
+        "lng": 135.7585
       },
       {
         "id": "0617-kyoto-station",
@@ -128,7 +158,10 @@
         "location": "京都站",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station",
-        "note": "可逛京都站、京都塔或附近餐廳。"
+        "note": "可逛京都站、京都塔或附近餐廳。",
+        "order": 4,
+        "lat": 34.985849,
+        "lng": 135.758767
       }
     ]
   },
@@ -147,7 +180,10 @@
         "address": "55 Higashikujyo-Muromachi, Minami-ku, Kyoto",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Kyoto+Ekiminami",
-        "note": "退房時間為 11:00 前。退房後可先寄放行李，或移動到清水寺附近住宿。"
+        "note": "退房時間為 11:00 前。退房後可先寄放行李，或移動到清水寺附近住宿。",
+        "order": 1,
+        "lat": 34.9829,
+        "lng": 135.7585
       },
       {
         "id": "0618-move-kiyomizu-hotel",
@@ -158,7 +194,10 @@
         "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
         "status": "need_check",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
-        "note": "從京都站附近移動到清水寺附近住宿，方便隔天早上去清水寺。"
+        "note": "從京都站附近移動到清水寺附近住宿，方便隔天早上去清水寺。",
+        "order": 2,
+        "lat": 34.9959,
+        "lng": 135.7798
       },
       {
         "id": "0618-checkin-terrace",
@@ -169,7 +208,10 @@
         "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
         "status": "reserved",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
-        "note": "6/18 晚上住宿，入住時間 16:00。飯店距離清水寺約 690 公尺。"
+        "note": "6/18 晚上住宿，入住時間 16:00。飯店距離清水寺約 690 公尺。座標需確認，位置以 Google Maps 搜尋 TERRACE KIYOMIZU KYOTO 為準。",
+        "order": 3,
+        "lat": 34.9959,
+        "lng": 135.7798
       },
       {
         "id": "0618-higashiyama-walk",
@@ -179,7 +221,10 @@
         "location": "二年坂三年坂",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sannenzaka+Kyoto",
-        "note": "如果體力允許，晚上可以在清水寺周邊簡單散步，不要太晚，因為隔天 6:00 要起床。"
+        "note": "如果體力允許，晚上可以在清水寺周邊簡單散步，不要太晚，因為隔天 6:00 要起床。",
+        "order": 4,
+        "lat": 34.9980,
+        "lng": 135.7808
       }
     ]
   },
@@ -196,7 +241,10 @@
         "type": "note",
         "location": "京都清水露台飯店",
         "status": "not_started",
-        "note": "早點出門避開清水寺人潮，建議前一晚先準備好相機、行動電源與水。"
+        "note": "早點出門避開清水寺人潮，建議前一晚先準備好相機、行動電源與水。",
+        "order": 1,
+        "lat": 34.9959,
+        "lng": 135.7798
       },
       {
         "id": "0619-kiyomizu",
@@ -206,7 +254,10 @@
         "location": "清水寺",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera+Kyoto",
-        "note": "從京都清水露台飯店步行前往，距離約 690 公尺。早上人比較少，適合拍照。"
+        "note": "從京都清水露台飯店步行前往，距離約 690 公尺。早上人比較少，適合拍照。",
+        "order": 2,
+        "lat": 34.994856,
+        "lng": 135.785046
       },
       {
         "id": "0619-sannenzaka",
@@ -216,7 +267,10 @@
         "location": "二年坂三年坂",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ninenzaka+Sannenzaka+Kyoto",
-        "note": "清水寺結束後順路走二年坂、三年坂，早上店家可能還沒全開，但人少比較好拍。"
+        "note": "清水寺結束後順路走二年坂、三年坂，早上店家可能還沒全開，但人少比較好拍。",
+        "order": 3,
+        "lat": 34.9980,
+        "lng": 135.7808
       },
       {
         "id": "0619-back-hotel",
@@ -226,7 +280,10 @@
         "location": "京都清水露台飯店 TERRACE KIYOMIZU KYOTO",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
-        "note": "回飯店整理行李，準備退房。"
+        "note": "回飯店整理行李，準備退房。",
+        "order": 4,
+        "lat": 34.9959,
+        "lng": 135.7798
       },
       {
         "id": "0619-checkout-terrace",
@@ -237,7 +294,10 @@
         "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
-        "note": "退房時間 11:00。退房後前往名古屋。"
+        "note": "退房時間 11:00。退房後前往名古屋。",
+        "order": 5,
+        "lat": 34.9959,
+        "lng": 135.7798
       },
       {
         "id": "0619-kyoto-to-nagoya",
@@ -247,7 +307,10 @@
         "location": "名古屋站",
         "status": "need_check",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya+Station",
-        "note": "從京都站前往名古屋站，建議提前確認新幹線班次與車票。"
+        "note": "從京都站前往名古屋站，建議提前確認新幹線班次與車票。",
+        "order": 6,
+        "lat": 35.170915,
+        "lng": 136.881537
       }
     ]
   },
@@ -266,7 +329,10 @@
         "status": "need_check",
         "ticketUrl": "https://l-tike.com/st1/bw-ticket1065/sitetop",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ghibli+Park",
-        "note": "確認 Standard 或 Premium 票券狀態。Premium 可能已售完，Standard 可能還能買。"
+        "note": "確認 Standard 或 Premium 票券狀態。Premium 可能已售完，Standard 可能還能買。",
+        "order": 1,
+        "lat": 35.175178,
+        "lng": 137.089961
       }
     ]
   },
@@ -307,7 +373,10 @@
         "location": "中部國際機場",
         "status": "not_started",
         "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chubu+Centrair+International+Airport",
-        "note": "從名古屋市區前往中部國際機場，請預留足夠交通與報到時間。"
+        "note": "從名古屋市區前往中部國際機場，請預留足夠交通與報到時間。",
+        "order": 2,
+        "lat": 34.858414,
+        "lng": 136.805408
       }
     ]
   }

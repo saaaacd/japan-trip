@@ -105,6 +105,22 @@ export default function Dashboard() {
               </div>
             )}
 
+            {/* Map Entry */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 flex items-center justify-between">
+              <div>
+                <h3 className="font-bold text-gray-800 flex items-center gap-1.5">
+                  <Map size={18} className="text-primary" /> 今日地圖
+                </h3>
+                <p className="text-xs text-gray-500 mt-1">查看今天所有景點位置與路線</p>
+              </div>
+              <Link 
+                href={`/map?date=${todayInfo.todayData.date}`}
+                className="shrink-0 bg-primary/10 text-primary px-3 py-1.5 rounded-full text-sm font-medium hover:bg-primary/20 transition-colors"
+              >
+                打開地圖
+              </Link>
+            </div>
+
             {/* Today's Hotel */}
             {todayHotel && (
               <section>

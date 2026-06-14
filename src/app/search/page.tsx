@@ -26,7 +26,14 @@ export default function SearchPage() {
           item.location?.toLowerCase().includes(q) ||
           item.note?.toLowerCase().includes(q)
         ) {
-          matches.push({ type: 'itinerary', label: `行程 (${day.date})`, title: item.title, desc: item.location || item.note, link: '/itinerary' });
+          matches.push({ 
+            type: 'itinerary', 
+            label: `行程 (${day.date})`, 
+            title: item.title, 
+            desc: item.location || item.note, 
+            link: '/itinerary',
+            mapLink: (item.lat !== undefined && item.lng !== undefined) ? `/map?date=${day.date}&item=${item.id}` : undefined
+          });
         }
       });
     });
@@ -95,11 +102,23 @@ export default function SearchPage() {
         )}
         
         {results.map((item, index) => (
-          <Link href={item.link} key={index} className="block bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:border-primary transition-colors">
-            <span className="text-xs font-bold text-primary mb-1 block">{item.label}</span>
-            <h3 className="font-bold text-gray-800">{item.title}</h3>
-            {item.desc && <p className="text-sm text-gray-500 mt-1">{item.desc}</p>}
-          </Link>
+          <div key={index} className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:border-primary transition-colors flex flex-col">
+            <Link href={item.link} className="block flex-1">
+              <span className="text-xs font-bold text-primary mb-1 block">{item.label}</span>
+              <h3 className="font-bold text-gray-800">{item.title}</h3>
+              {item.desc && <p className="text-sm text-gray-500 mt-1">{item.desc}</p>}
+            </Link>
+            {item.mapLink && (
+              <div className="mt-3 pt-3 border-t border-gray-100">
+                <Link 
+                  href={item.mapLink}
+                  className="inline-block bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full text-xs font-medium hover:bg-blue-100 transition-colors"
+                >
+                  在地圖中查看
+                </Link>
+              </div>
+            )}
+          </div>
         ))}
       </div>
     </div>

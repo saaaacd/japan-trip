@@ -29,14 +29,31 @@ npm run dev
 此外，網頁上所有卡片的狀態（例如：「未開始」、「已完成」等）在您切換時，都會自動存入瀏覽器的 `localStorage` 中。
 若要重置狀態，可以清除瀏覽器的網站資料 (清除 localStorage)。
 
-## 6. 如何部署到 Vercel
+## 6. 如何新增地圖座標
+為了讓行程點能顯示在「地圖行程模式」中，請在 \`src/data/trip.json\` 的行程項目中加入以下欄位：
+- \`lat\`: 緯度 (number)
+- \`lng\`: 經度 (number)
+- \`order\`: 當日地圖上的順序編號 (number)
+
+範例：
+\`\`\`json
+{
+  "id": "123",
+  "title": "大阪城",
+  "lat": 34.687315,
+  "lng": 135.526201,
+  "order": 1
+}
+\`\`\`
+
+## 7. 如何部署到 Vercel
 1. 將專案推送到 GitHub。
 2. 在 [Vercel](https://vercel.com/) 點選 "Add New Project"。
 3. 匯入您的 GitHub 專案。
 4. Vercel 會自動偵測 Next.js 專案並預設好 Build 設定。
 5. 點擊 "Deploy" 即可完成部署。
 
-## 7. 如何加到手機主畫面
+## 8. 如何加到手機主畫面
 這個網站已經支援 PWA：
 - **iOS (Safari)**：使用 Safari 打開網站後，點選底部的「分享」按鈕，然後選擇「加入主畫面」。
 - **Android (Chrome)**：使用 Chrome 打開網站後，通常會自動跳出「新增至主畫面」的提示，或是點選右上角選單，選擇「加到主畫面」。

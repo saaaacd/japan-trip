@@ -17,6 +17,9 @@ export type ItineraryItem = {
   note?: string;
   mapUrl?: string;
   ticketUrl?: string;
+  lat?: number;
+  lng?: number;
+  order?: number;
 };
 
 export type Hotel = {

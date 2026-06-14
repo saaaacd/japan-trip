@@ -28,9 +28,17 @@ export default function ItineraryPage() {
                   <span className="text-xs font-bold text-primary tracking-wider uppercase mb-1 block">Day {index + 1}</span>
                   <h2 className="text-lg font-bold text-gray-800">{day.date} · {day.title}</h2>
                 </div>
-                <span className="text-sm font-medium text-gray-500 flex items-center gap-1">
-                  <MapPin size={14} /> {day.city}
-                </span>
+                <div className="flex flex-col items-end gap-1">
+                  <span className="text-sm font-medium text-gray-500 flex items-center gap-1">
+                    <MapPin size={14} /> {day.city}
+                  </span>
+                  <a 
+                    href={`/map?date=${day.date}`}
+                    className="text-[10px] bg-blue-50 text-blue-600 px-2 py-1 rounded font-medium hover:bg-blue-100 transition-colors flex items-center gap-1"
+                  >
+                    查看這天地圖
+                  </a>
+                </div>
               </div>
             </div>
 
