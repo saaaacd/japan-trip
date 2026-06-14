@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ghibli-park-0620",
+    "title": "吉卜力公園票券",
+    "date": "2026-06-20",
+    "city": "名古屋",
+    "status": "need_check",
+    "platform": "Lawson Ticket / Boo-Woo Ticket",
+    "url": "https://l-tike.com/st1/bw-ticket1065/sitetop",
+    "note": "Premium 大さんぽ券プレミアム可能已售完，Standard 大さんぽ券スタンダード可能還能買。請確認 6 月入場分。"
+  },
+  {
+    "id": "shinkansen-kyoto-nagoya-0619",
+    "title": "京都 → 名古屋 新幹線",
+    "date": "2026-06-19",
+    "city": "京都 / 名古屋",
+    "status": "need_check",
+    "platform": "JR / Smart EX",
+    "url": "",
+    "note": "建議提前查班次與購票。"
+  },
+  {
+    "id": "hotel-osaka-0615",
+    "title": "大阪住宿 R Residences 難波南 I",
+    "date": "2026-06-15",
+    "city": "大阪",
+    "status": "reserved",
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/zh-tw/wl3-1-5/hotel/all/osaka-jp.html",
+    "note": "6/15、6/16 兩晚住宿。"
+  },
+  {
+    "id": "hotel-kyoto-keihan-0617",
+    "title": "京都住宿 京阪京都站南飯店",
+    "date": "2026-06-17",
+    "city": "京都",
+    "status": "reserved",
+    "platform": "Klook",
+    "url": "",
+    "note": "6/17 一晚住宿。"
+  },
+  {
+    "id": "hotel-kyoto-terrace-0618",
+    "title": "京都住宿 京都清水露台飯店",
+    "date": "2026-06-18",
+    "city": "京都",
+    "status": "reserved",
+    "platform": "Agoda",
+    "url": "",
+    "note": "6/18 一晚住宿，方便 6/19 早上去清水寺。"
+  }
+]

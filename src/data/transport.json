@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kix-to-osaka",
+    "title": "關西機場 → 大阪市區",
+    "date": "2026-06-15",
+    "status": "need_check",
+    "note": "抵達關西機場後前往大阪住宿，住宿最近站為地下鐵花園町站。"
+  },
+  {
+    "id": "osaka-to-kyoto",
+    "title": "大阪 → 京都",
+    "date": "2026-06-17",
+    "status": "need_check",
+    "note": "從大阪前往京都，入住京都站附近飯店。"
+  },
+  {
+    "id": "kyoto-station-to-kiyomizu-hotel",
+    "title": "京都站附近 → 京都清水露台飯店",
+    "date": "2026-06-18",
+    "status": "need_check",
+    "note": "移動到清水寺附近住宿，方便隔天早起去清水寺。"
+  },
+  {
+    "id": "kyoto-to-nagoya",
+    "title": "京都 → 名古屋",
+    "date": "2026-06-19",
+    "status": "need_check",
+    "note": "建議從京都站搭新幹線到名古屋站。"
+  },
+  {
+    "id": "nagoya-to-ghibli",
+    "title": "名古屋 → 吉卜力公園",
+    "date": "2026-06-20",
+    "status": "need_check",
+    "note": "請查詢從名古屋站前往愛・地球博記念公園的路線。"
+  },
+  {
+    "id": "nagoya-to-centrair",
+    "title": "名古屋市區 → 中部國際機場",
+    "date": "2026-06-22",
+    "status": "need_check",
+    "note": "回台灣當天請預留足夠時間前往機場。"
+  }
+]

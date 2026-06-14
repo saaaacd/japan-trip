@@ -1,0 +1,314 @@
+[
+  {
+    "date": "2026-06-15",
+    "city": "大阪",
+    "title": "抵達大阪與道頓堀散步",
+    "weatherNote": "6 月日本可能遇到梅雨季，建議準備摺疊傘。",
+    "items": [
+      {
+        "id": "0615-arrive-kix",
+        "time": "下午",
+        "title": "抵達關西機場",
+        "type": "transport",
+        "location": "關西國際機場",
+        "status": "not_started",
+        "note": "入境後前往大阪市區。"
+      },
+      {
+        "id": "0615-checkin-osaka",
+        "time": "16:00",
+        "title": "R Residences 難波南 I Check-in",
+        "type": "hotel",
+        "location": "R Residences 難波南 I",
+        "address": "旭１丁目４−２６ R Residence 難波南 I, 大阪市南部, 大阪, 日本, 557-0032",
+        "status": "reserved",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
+        "note": "6/15、6/16 兩晚住宿。入住時間 16:00，距離地下鐵花園町站約 130 公尺。"
+      },
+      {
+        "id": "0615-dotonbori",
+        "time": "晚上",
+        "title": "心齋橋、道頓堀",
+        "type": "attraction",
+        "location": "道頓堀",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka",
+        "note": "拍固力果、吃章魚燒與大阪燒。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "city": "大阪",
+    "title": "大阪市區經典行程",
+    "weatherNote": "下雨備案：黑門市場、心齋橋商店街、百貨公司、地下街。",
+    "items": [
+      {
+        "id": "0616-osaka-castle",
+        "time": "早上",
+        "title": "大阪城",
+        "type": "attraction",
+        "location": "大阪城",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Osaka+Castle"
+      },
+      {
+        "id": "0616-kuromon",
+        "time": "中午",
+        "title": "黑門市場",
+        "type": "food",
+        "location": "黑門市場",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kuromon+Market+Osaka"
+      },
+      {
+        "id": "0616-tsutenkaku",
+        "time": "下午",
+        "title": "通天閣、新世界",
+        "type": "attraction",
+        "location": "通天閣",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tsutenkaku+Osaka"
+      },
+      {
+        "id": "0616-back-hotel",
+        "time": "晚上",
+        "title": "回 R Residences 難波南 I",
+        "type": "hotel",
+        "location": "R Residences 難波南 I",
+        "status": "reserved",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
+        "note": "第二晚住宿。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "city": "京都",
+    "title": "大阪退房，移動到京都",
+    "weatherNote": "如果下雨，京都站周邊與地下街可作為備案。",
+    "items": [
+      {
+        "id": "0617-checkout-osaka",
+        "time": "10:00 前",
+        "title": "R Residences 難波南 I Check-out",
+        "type": "hotel",
+        "location": "R Residences 難波南 I",
+        "address": "旭１丁目４−２６ R Residence 難波南 I, 大阪市南部, 大阪, 日本, 557-0032",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=R+Residences+%E9%9B%A3%E6%B3%A2%E5%8D%97+I+%E5%A4%A7%E9%98%AA",
+        "note": "大阪住宿退房。退房時間為 10:00 前，之後前往京都。"
+      },
+      {
+        "id": "0617-osaka-to-kyoto",
+        "time": "上午",
+        "title": "大阪 → 京都",
+        "type": "transport",
+        "location": "京都站",
+        "status": "need_check",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station",
+        "note": "從大阪前往京都，抵達後可先寄放行李，再開始京都行程。"
+      },
+      {
+        "id": "0617-checkin-keihan",
+        "time": "15:00 後",
+        "title": "京阪京都站南飯店 Check-in",
+        "type": "hotel",
+        "location": "京阪京都站南飯店 Hotel Keihan Kyoto Ekiminami",
+        "address": "55 Higashikujyo-Muromachi, Minami-ku, Kyoto",
+        "status": "reserved",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Kyoto+Ekiminami",
+        "note": "6/17 晚上住宿，入住時間 15:00 後。飯店距離京都站約 300 公尺，步行約 5 分鐘。"
+      },
+      {
+        "id": "0617-kyoto-station",
+        "time": "晚上",
+        "title": "京都站周邊散步",
+        "type": "attraction",
+        "location": "京都站",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station",
+        "note": "可逛京都站、京都塔或附近餐廳。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "city": "京都",
+    "title": "京都站退房，移動到清水寺附近住宿",
+    "weatherNote": "隔天早上要很早起，晚上不要排太晚。",
+    "items": [
+      {
+        "id": "0618-checkout-keihan",
+        "time": "11:00 前",
+        "title": "京阪京都站南飯店 Check-out",
+        "type": "hotel",
+        "location": "京阪京都站南飯店 Hotel Keihan Kyoto Ekiminami",
+        "address": "55 Higashikujyo-Muromachi, Minami-ku, Kyoto",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Kyoto+Ekiminami",
+        "note": "退房時間為 11:00 前。退房後可先寄放行李，或移動到清水寺附近住宿。"
+      },
+      {
+        "id": "0618-move-kiyomizu-hotel",
+        "time": "下午",
+        "title": "移動到京都清水露台飯店",
+        "type": "transport",
+        "location": "京都清水露台飯店 TERRACE KIYOMIZU KYOTO",
+        "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
+        "status": "need_check",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
+        "note": "從京都站附近移動到清水寺附近住宿，方便隔天早上去清水寺。"
+      },
+      {
+        "id": "0618-checkin-terrace",
+        "time": "16:00",
+        "title": "京都清水露台飯店 Check-in",
+        "type": "hotel",
+        "location": "京都清水露台飯店 TERRACE KIYOMIZU KYOTO",
+        "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
+        "status": "reserved",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
+        "note": "6/18 晚上住宿，入住時間 16:00。飯店距離清水寺約 690 公尺。"
+      },
+      {
+        "id": "0618-higashiyama-walk",
+        "time": "晚上",
+        "title": "東山、二年坂三年坂附近散步",
+        "type": "attraction",
+        "location": "二年坂三年坂",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sannenzaka+Kyoto",
+        "note": "如果體力允許，晚上可以在清水寺周邊簡單散步，不要太晚，因為隔天 6:00 要起床。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "city": "京都 / 名古屋",
+    "title": "早晨清水寺，之後前往名古屋",
+    "weatherNote": "早上行程以清水寺為主。若下雨，仍可前往，但要帶傘並穿好走的鞋。",
+    "items": [
+      {
+        "id": "0619-wakeup",
+        "time": "06:00",
+        "title": "起床準備前往清水寺",
+        "type": "note",
+        "location": "京都清水露台飯店",
+        "status": "not_started",
+        "note": "早點出門避開清水寺人潮，建議前一晚先準備好相機、行動電源與水。"
+      },
+      {
+        "id": "0619-kiyomizu",
+        "time": "06:30",
+        "title": "清水寺早晨參觀",
+        "type": "attraction",
+        "location": "清水寺",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera+Kyoto",
+        "note": "從京都清水露台飯店步行前往，距離約 690 公尺。早上人比較少，適合拍照。"
+      },
+      {
+        "id": "0619-sannenzaka",
+        "time": "08:00",
+        "title": "二年坂、三年坂散步拍照",
+        "type": "attraction",
+        "location": "二年坂三年坂",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ninenzaka+Sannenzaka+Kyoto",
+        "note": "清水寺結束後順路走二年坂、三年坂，早上店家可能還沒全開，但人少比較好拍。"
+      },
+      {
+        "id": "0619-back-hotel",
+        "time": "10:00",
+        "title": "回飯店整理行李",
+        "type": "hotel",
+        "location": "京都清水露台飯店 TERRACE KIYOMIZU KYOTO",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
+        "note": "回飯店整理行李，準備退房。"
+      },
+      {
+        "id": "0619-checkout-terrace",
+        "time": "11:00 前",
+        "title": "京都清水露台飯店 Check-out",
+        "type": "hotel",
+        "location": "京都清水露台飯店 TERRACE KIYOMIZU KYOTO",
+        "address": "No. 583-3, Yugyomai-cho, Higashiyama, Gojo, Tōdōji-dori, Kyoto, Japan, 605-0864",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=TERRACE+KIYOMIZU+KYOTO",
+        "note": "退房時間 11:00。退房後前往名古屋。"
+      },
+      {
+        "id": "0619-kyoto-to-nagoya",
+        "time": "中午或下午",
+        "title": "京都 → 名古屋",
+        "type": "transport",
+        "location": "名古屋站",
+        "status": "need_check",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya+Station",
+        "note": "從京都站前往名古屋站，建議提前確認新幹線班次與車票。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "city": "名古屋",
+    "title": "吉卜力公園",
+    "weatherNote": "戶外園區較多，若下雨請帶傘、穿好走的鞋。",
+    "items": [
+      {
+        "id": "0620-ghibli-park",
+        "time": "整天",
+        "title": "吉卜力公園",
+        "type": "ticket",
+        "location": "吉卜力公園",
+        "status": "need_check",
+        "ticketUrl": "https://l-tike.com/st1/bw-ticket1065/sitetop",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ghibli+Park",
+        "note": "確認 Standard 或 Premium 票券狀態。Premium 可能已售完，Standard 可能還能買。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "city": "名古屋",
+    "title": "犬山城或 Outlet",
+    "weatherNote": "看天氣決定，晴天選犬山城，下雨或想購物選 Outlet。",
+    "items": [
+      {
+        "id": "0621-inuyama-or-outlet",
+        "time": "整天",
+        "title": "犬山城 / Outlet 二選一",
+        "type": "attraction",
+        "status": "need_check",
+        "note": "看天氣決定，想拍照選犬山，想購物選 Outlet。"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "city": "名古屋",
+    "title": "回台灣",
+    "weatherNote": "依班機時間調整，不要排太滿。",
+    "items": [
+      {
+        "id": "0622-souvenir",
+        "time": "早上",
+        "title": "買伴手禮、整理行李",
+        "type": "shopping",
+        "status": "not_started"
+      },
+      {
+        "id": "0622-airport",
+        "time": "依班機時間",
+        "title": "前往中部國際機場",
+        "type": "transport",
+        "location": "中部國際機場",
+        "status": "not_started",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chubu+Centrair+International+Airport",
+        "note": "從名古屋市區前往中部國際機場，請預留足夠交通與報到時間。"
+      }
+    ]
+  }
+]
