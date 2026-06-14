@@ -4,7 +4,7 @@ import { Suspense, useState, useEffect, useRef } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { useTripState } from '@/hooks/useTripState';
 import MapWrapper from '@/components/map/MapWrapper';
-import { MapPin, ExternalLink, AlertCircle } from 'lucide-react';
+import { MapPin, ExternalLink, AlertCircle, ChevronUp, ChevronDown } from 'lucide-react';
 import { format, parseISO } from 'date-fns';
 
 function MapContent() {
@@ -14,6 +14,7 @@ function MapContent() {
   
   const [activeDate, setActiveDate] = useState<string>(trip[0]?.date || '');
   const [activeItemId, setActiveItemId] = useState<string | undefined>();
+  const [isListExpanded, setIsListExpanded] = useState(true);
   
   const chipsContainerRef = useRef<HTMLDivElement>(null);
   const listContainerRef = useRef<HTMLDivElement>(null);
@@ -36,6 +37,7 @@ function MapContent() {
     
     if (itemParam) {
       setActiveItemId(itemParam);
+      setIsListExpanded(true); // expand if item is selected
       // Scroll list to item
       setTimeout(() => {
         const el = document.getElementById(`list-item-${itemParam}`);
@@ -49,6 +51,7 @@ function MapContent() {
   const handleDateChange = (date: string) => {
     setActiveDate(date);
     setActiveItemId(undefined);
+    setIsListExpanded(true);
     router.push(`/map?date=${date}`);
   };
 
@@ -69,7 +72,7 @@ function MapContent() {
     <div className="flex flex-col md:flex-row h-screen bg-gray-50 pt-safe pb-16 md:pb-0 overflow-hidden">
       
       {/* Mobile Chips (Top) & Desktop Header */}
-      <div className="md:hidden bg-white border-b border-gray-200 z-10">
+      <div className="md:hidden bg-white border-b border-gray-200 z-10 shrink-0">
         <div 
           ref={chipsContainerRef}
           className="flex overflow-x-auto py-3 px-4 gap-2 no-scrollbar"
@@ -91,7 +94,7 @@ function MapContent() {
       </div>
 
       {/* Desktop List Container */}
-      <div className="hidden md:flex flex-col w-[360px] bg-white border-r border-gray-200 z-10 h-full">
+      <div className="hidden md:flex flex-col w-[360px] bg-white border-r border-gray-200 z-10 h-full shrink-0">
         <div className="p-4 border-b border-gray-200 bg-primary text-white">
           <h1 className="text-xl font-bold mb-3 flex items-center gap-2">
             <MapPin size={24} /> 行程地圖
@@ -114,7 +117,7 @@ function MapContent() {
       </div>
 
       {/* Map Container */}
-      <div className="flex-1 relative h-[50vh] md:h-full z-0">
+      <div className="flex-1 relative z-0 transition-all duration-300">
         <MapWrapper 
           items={items} 
           activeItemId={activeItemId} 
@@ -123,13 +126,21 @@ function MapContent() {
       </div>
 
       {/* Mobile List Container */}
-      <div className="md:hidden flex-1 overflow-y-auto bg-gray-50 p-4 space-y-3 relative z-10" ref={listContainerRef}>
-        <div className="sticky top-0 bg-gray-50 pb-2 z-20">
-          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wider">
-            {currentDay.date} {currentDay.city}
+      <div className={`md:hidden flex flex-col bg-white border-t border-gray-200 z-10 transition-all duration-300 ease-in-out shrink-0 ${isListExpanded ? 'h-[45vh]' : 'h-12'}`}>
+        <button 
+          onClick={() => setIsListExpanded(!isListExpanded)}
+          className="flex justify-between items-center px-4 h-12 w-full bg-gray-50 border-b border-gray-200 shrink-0"
+        >
+          <h2 className="text-sm font-bold text-gray-600 uppercase tracking-wider flex items-center gap-2">
+            <MapPin size={16} /> {currentDay.date} {currentDay.city}
           </h2>
-        </div>
-        <ItemList items={items} activeItemId={activeItemId} onItemClick={handleItemClick} />
+          {isListExpanded ? <ChevronDown size={20} className="text-gray-400" /> : <ChevronUp size={20} className="text-gray-400" />}
+        </button>
+        {isListExpanded && (
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50" ref={listContainerRef}>
+            <ItemList items={items} activeItemId={activeItemId} onItemClick={handleItemClick} />
+          </div>
+        )}
       </div>
 
     </div>
